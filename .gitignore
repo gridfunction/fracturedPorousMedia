@@ -1,1 +1,3 @@
 *.vtk
+.ipynb_checkpoints*
+__pycache*
