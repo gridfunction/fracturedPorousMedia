@@ -1,0 +1,1 @@
+[regular_3d.geo](regular_3d.geo) gmsh geo file to generate the grids for the regular test case.

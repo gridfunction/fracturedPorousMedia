@@ -1,0 +1,14 @@
+\documentclass[12pt]{article}
+
+\usepackage{pdfpages}
+\usepackage{tikz}
+\begin{document}
+
+\pagestyle{empty}
+\includepdf[pages={1}, pagecommand={%
+    \begin{tikzpicture}[remember picture, overlay]
+        \node at (2.575, -10.75) {\includegraphics[width=0.2\textwidth]{case1_matrixheadplot}};
+        \node at (9, -10.75) {\includegraphics[width=0.2\textwidth]{case1_matrixheadplot}};
+        \node at (15.4, -10.75) {\includegraphics[width=0.2\textwidth]{case1_matrixheadplot}};
+    \end{tikzpicture}}]{plots/case1_pol_c_matrix}
+\end{document}

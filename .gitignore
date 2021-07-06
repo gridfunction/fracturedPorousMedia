@@ -1,3 +1,7 @@
 *.vtk
 .ipynb_checkpoints*
 __pycache*
+graveyard
+*pvsm
+*pdf
+*png

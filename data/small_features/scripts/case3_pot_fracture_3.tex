@@ -1,0 +1,13 @@
+\documentclass[12pt]{article}
+
+\usepackage{pdfpages}
+\usepackage{tikz}
+\begin{document}
+
+\pagestyle{empty}
+\includepdf[pages={1}, pagecommand={%
+    \begin{tikzpicture}[remember picture, overlay]
+        \node at (4, -10.75) {\includegraphics[width=0.40\textwidth]{small_fracture3}};
+        \node at (14.1, -10.75) {\includegraphics[width=0.40\textwidth]{small_fracture3}};
+    \end{tikzpicture}}]{plots/case3_pot_fracture_3}
+\end{document}

@@ -1,0 +1,14 @@
+\documentclass[12pt]{article}
+
+\usepackage{pdfpages}
+\usepackage{tikz}
+\begin{document}
+
+\pagestyle{empty}
+\includepdf[pages={1}, pagecommand={%
+    \begin{tikzpicture}[remember picture, overlay]
+        \node at (-0.5, -6.75) {\includegraphics[width=0.2\textwidth]{case1_outfluxpic}};
+        \node at (6, -6.75) {\includegraphics[width=0.2\textwidth]{case1_outfluxpic}};
+        \node at (12.5, -6.75) {\includegraphics[width=0.2\textwidth]{case1_outfluxpic}};
+    \end{tikzpicture}}]{plots/case1_pot_outflux}
+\end{document}

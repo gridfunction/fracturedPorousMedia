@@ -1,0 +1,13 @@
+\documentclass[12pt]{article}
+
+\usepackage{pdfpages}
+\usepackage{tikz}
+\begin{document}
+
+\pagestyle{empty}
+\includepdf[pages={1}, pagecommand={%
+    \begin{tikzpicture}[remember picture, overlay]
+        \node at (5.1, -10.9) {\includegraphics[width=0.25\textwidth]{case3_plot}};
+        \node at (15.1, -10.9) {\includegraphics[width=0.25\textwidth]{case3_plot}};
+    \end{tikzpicture}}]{plots/case3_pol_p_line_0}
+\end{document}

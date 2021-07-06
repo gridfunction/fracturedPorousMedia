@@ -1,0 +1,14 @@
+\documentclass[12pt]{article}
+
+\usepackage{pdfpages}
+\usepackage{tikz}
+\begin{document}
+
+\pagestyle{empty}
+\includepdf[pages={1}, pagecommand={%
+    \begin{tikzpicture}[remember picture, overlay]
+        \node at (-1.1, -10.75) {\includegraphics[width=0.2\textwidth]{case2_plotpic}};
+        \node at (5.7, -10.75) {\includegraphics[width=0.2\textwidth]{case2_plotpic}};
+        \node at (12.3, -10.75) {\includegraphics[width=0.2\textwidth]{case2_plotpic}};
+    \end{tikzpicture}}]{plots/case2_pol_cond_0}
+\end{document}

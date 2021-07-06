@@ -1,0 +1,1 @@
+In the [grids](./grids) folder a gmsh file containing the geometry for the test case. A single parameter determines the number of cells in the domain.

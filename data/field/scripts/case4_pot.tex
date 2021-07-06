@@ -1,0 +1,14 @@
+\documentclass[12pt]{article}
+
+\usepackage{pdfpages}
+\usepackage{tikz}
+\begin{document}
+
+\pagestyle{empty}
+\includepdf[pages={1}, pagecommand={%
+    \begin{tikzpicture}[remember picture, overlay]
+        \node at (-1.3, -7) {\includegraphics[width=0.25\textwidth]{case4_fracture15}};
+        \node at (5.4, -7) {\includegraphics[width=0.25\textwidth]{case4_fracture45}};
+        \node at (12.05, -7) {\includegraphics[width=0.25\textwidth]{case4_fracture48}};
+    \end{tikzpicture}}]{plots/case4_pot}
+\end{document}
