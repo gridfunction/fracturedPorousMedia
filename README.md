@@ -1,6 +1,14 @@
 # fracturedPorousMedia
 hybrid-mixed FEM for flow in fractured porous media
 
++ 4 2D benchmark tests:  [hydrocoin.ipynb](hydrocoin.ipynb), 
+[geiger.ipynb](geiger.ipynb), [complex.ipynb](complex.ipynb), 
+[real.ipynb](real.ipynb).
++ 4 3D benchmark tests: 
+[single3D.ipynb](single3D.ipynb), 
+  [regular3D.ipynb](regular3D.ipynb), 
+  [small_features3D.ipynb](small_features3D.ipynb), 
+[field3D.ipynb](field3D.ipynb).
 
 ## Running the tutorials
 There are at least two ways you can run the tutorials:
