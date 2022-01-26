@@ -18,5 +18,6 @@ jupyter notebook *.ipynb
 ```
 
 2. or run `ngsxfem` interactively in the cloud without any local installation through 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gridfunction/fracturedPorousMedia/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gridfunction/fracturedPorousMedia/HEAD?filepath=hydrocoin.ipynb
+)
 
