@@ -10,6 +10,10 @@ hybrid-mixed FEM for flow in fractured porous media
   [small_features3D.ipynb](small_features3D.ipynb), 
 [field3D.ipynb](field3D.ipynb).
 
+HDG for fractured porous media flow in unfitted meshes
++ [complex network in 2D](complex2D-HDG.ipynb)
++ [single fracture in 3D](single3Dhex-HDG.ipynb)
+
 ## Running the tutorials
 There are at least two ways you can run the tutorials:
 1. Run the tutorials from your host machine which has a recent `ngsxfem` installed with 
